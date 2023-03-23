@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.main-title {
+  margin-top: 20px;
+  text-align: center;
+  padding: 16px 0;
+  background-color: black;
+  color: white;
+}
+.flex {
+  display: flex;
+
+  justify-content: space-between;
+}
+.card-box {
+  margin-top: 10px;
+  margin-right: 85px;
+}
+
+.contact-title {
+  font-size: 36px;
+}
+form {
+  margin-top: 10px;
+  margin-left: 85px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.inp {
+  padding: 16px 0px;
+  padding-left: 20px;
+  width: 400px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid black;
+}
+.inp::placeholder {
+  color: grey;
+  font-size: 14px;
+}
+.btn {
+  color: white;
+  border: none;
+  background-color: blue;
+  padding: 16px 32px;
+  margin: 0 auto;
+}
+.card {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 16px;
+  width: 400px;
+  border: 2px solid black;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+.card-relation {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 22px;
+}
+.card-phone {
+  color: blue;
+  margin-top: 5px;
+  font-size: 22px;
+}
+.card-delate {
+  border: none;
+  background-color: red;
+  padding: 16px 32px;
+  border-radius: 10px;
+  color: white;
+}
